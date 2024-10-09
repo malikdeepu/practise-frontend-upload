@@ -8,7 +8,7 @@ const AuthForm = ({ setMessage }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const url = `https://practise-backend-upload-1.onrender.com${
+    const url = `https://malikdeepu-practise-backend-upload.onrender.com${
       isLogin ? "login" : "signup"
     }`;
     try {
